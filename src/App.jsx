@@ -4,19 +4,20 @@ import PlayersManager from "./components/PlayersManager";
 import StaffManager from "./components/StaffManager";
 
 const JOGADORES_SEED = [
-  { id: crypto.randomUUID(), nome: "Rui Patrício", numero: "1", posicao: "Guarda-Redes", pe: "Direito", idade: "27" },
-  { id: crypto.randomUUID(), nome: "Nuno Mendes", numero: "3", posicao: "Lateral", pe: "Esquerdo", idade: "22" },
-  { id: crypto.randomUUID(), nome: "Rúben Dias", numero: "4", posicao: "Defesa Central", pe: "Direito", idade: "26" },
-  { id: crypto.randomUUID(), nome: "João Palhinha", numero: "6", posicao: "Médio Defensivo", pe: "Direito", idade: "28" },
-  { id: crypto.randomUUID(), nome: "Bernardo Silva", numero: "10", posicao: "Médio Centro", pe: "Direito", idade: "29" },
-  { id: crypto.randomUUID(), nome: "Rafael Leão", numero: "17", posicao: "Extremo", pe: "Esquerdo", idade: "25" },
-  { id: crypto.randomUUID(), nome: "Gonçalo Ramos", numero: "9", posicao: "Avançado", pe: "Direito", idade: "23" },
+  { id: crypto.randomUUID(), nome: "Thibaut Courtois", numero: "1", posicao: "Guarda-Redes", pe: "Esquerdo", idade: "34" },
+  { id: crypto.randomUUID(), nome: "William Saliba", numero: "2", posicao: "Defesa Central", pe: "Direito", idade: "25" },
+  { id: crypto.randomUUID(), nome: "Achraf Hakimi", numero: "2", posicao: "Lateral", pe: "Direito", idade: "27" },
+  { id: crypto.randomUUID(), nome: "Kaká", numero: "22", posicao: "Médio Defensivo", pe: "Direito", idade: "44" },
+  { id: crypto.randomUUID(), nome: "Jude Bellingham", numero: "5", posicao: "Médio Centro", pe: "Direito", idade: "23" },
+  { id: crypto.randomUUID(), nome: "Nico Williams", numero: "10", posicao: "Extremo", pe: "Direito", idade: "23" },
+  { id: crypto.randomUUID(), nome: "Neymar Jr", numero: "10", posicao: "Avançado", pe: "Direito", idade: "34" },
+  { id: crypto.randomUUID(), nome: "Endrick", numero: "19", posicao: "Avançado", pe: "Direito", idade: "19" },
 ];
 
 const EQUIPA_TECNICA_SEED = [
-  { id: crypto.randomUUID(), nome: "Roberto Martínez", funcao: "Treinador Principal", desde: "2022" },
-  { id: crypto.randomUUID(), nome: "Rui Faria", funcao: "Preparador Físico", desde: "2023" },
-  { id: crypto.randomUUID(), nome: "Vítor Bruno", funcao: "Treinador de Guarda-Redes", desde: "2022" },
+  { id: crypto.randomUUID(), nome: "Pep Guardiola", funcao: "Treinador Principal", desde: "2026" },
+  { id: crypto.randomUUID(), nome: "Gianluca Spinelli", funcao: "Treinador de Guarda-Redes", desde: "2026" },
+  { id: crypto.randomUUID(), nome: "Antonio Pintus", funcao: "Preparador Físico", desde: "2026" },
 ];
 
 const TABS = [
@@ -37,7 +38,7 @@ export default function App() {
           <h1>O Meu Plantel</h1>
           <p className="subtitle">
             Regista e organiza os jogadores por posição e a equipa técnica
-            por função. Tudo é guardado automaticamente neste dispositivo.
+            por função.
           </p>
         </div>
         <svg className="crest" viewBox="0 0 64 64" fill="none" aria-hidden="true">

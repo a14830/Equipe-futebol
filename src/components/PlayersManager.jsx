@@ -34,7 +34,7 @@ function PlayerForm({ inicial, onGuardar, onCancelar }) {
               autoFocus
               value={dados.nome}
               onChange={(e) => atualizar("nome", e.target.value)}
-              placeholder="Ex: João Ferreira"
+              placeholder="Ex: Neymar Jr"
             />
           </div>
           <div className="field-row">

@@ -1,11 +1,6 @@
 import { useEffect, useState } from "react";
 
-/**
- * Persiste um valor no localStorage (formato JSON), tal como um pequeno
- * "ficheiro" de dados por chave. Serve de camada de dados sem precisar de
- * backend — pode mais tarde ser substituído por Supabase mantendo a mesma
- * interface (valor, setValor).
- */
+
 export function useLocalStorage(chave, valorInicial) {
   const [valor, setValor] = useState(() => {
     try {
