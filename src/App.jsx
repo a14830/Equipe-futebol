@@ -77,7 +77,7 @@ export default function App() {
       )}
 
       <footer className="app-footer">
-        <span>Dados guardados localmente no navegador (localStorage).</span>
+        <span>Dados guardados localmente no navegador.</span>
         <span>Plantel &middot; {new Date().getFullYear()}</span>
       </footer>
     </div>
