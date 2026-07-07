@@ -1,3 +1,4 @@
+npm run dev
 # O Meu Plantel — Gestão de Equipa de Futebol
 
 Aplicação em React para gerir uma equipa de futebol: jogadores organizados

@@ -5,11 +5,11 @@ import StaffManager from "./components/StaffManager";
 
 const JOGADORES_SEED = [
   { id: crypto.randomUUID(), nome: "Thibaut Courtois", numero: "1", posicao: "Guarda-Redes", pe: "Esquerdo", idade: "34" },
-  { id: crypto.randomUUID(), nome: "William Saliba", numero: "2", posicao: "Defesa Central", pe: "Direito", idade: "25" },
+  { id: crypto.randomUUID(), nome: "Gabriel Magalhães", numero: "6", posicao: "Defesa Central", pe: "Esquerdo", idade: "28" },
   { id: crypto.randomUUID(), nome: "Achraf Hakimi", numero: "2", posicao: "Lateral", pe: "Direito", idade: "27" },
   { id: crypto.randomUUID(), nome: "Kaká", numero: "22", posicao: "Médio Defensivo", pe: "Direito", idade: "44" },
   { id: crypto.randomUUID(), nome: "Jude Bellingham", numero: "5", posicao: "Médio Centro", pe: "Direito", idade: "23" },
-  { id: crypto.randomUUID(), nome: "Nico Williams", numero: "10", posicao: "Extremo", pe: "Direito", idade: "23" },
+  { id: crypto.randomUUID(), nome: "Nico Williams", numero: "17", posicao: "Extremo", pe: "Direito", idade: "23" },
   { id: crypto.randomUUID(), nome: "Neymar Jr", numero: "10", posicao: "Avançado", pe: "Direito", idade: "34" },
   { id: crypto.randomUUID(), nome: "Endrick", numero: "19", posicao: "Avançado", pe: "Direito", idade: "19" },
 ];
